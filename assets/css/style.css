@@ -1272,11 +1272,13 @@ ul.sub-steps.step-details-update {
   display: flex;
   gap: 5px;
   align-items: center;
+  font-size: 10px;
 }
 #about .contents_wrap .info_all .info.skills ul li p.level span {
   width: 20px;
   height: 3px;
   border-radius: 2px;
+  font-size: 10px;
 }
 #about .contents_wrap .info_all .info.skills ul li p.level span.fill {
   background: #577c93;
@@ -1330,7 +1332,7 @@ ul.sub-steps.step-details-update {
   #about .contents_wrap .info_all .info ul li p:nth-child(2) {
     letter-spacing: 1;
 
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
@@ -1506,6 +1508,9 @@ ul.nav > li > a:hover {
 }
 
 @media only screen and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
   #section-home .well-come {
     font-size: 2rem !important;
   }
