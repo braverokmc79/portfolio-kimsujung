@@ -1504,3 +1504,12 @@ ul.nav > li > a:hover {
 .details-list li.hover a:hover strong {
   color: #fff;
 }
+
+@media only screen and (max-width: 480px) {
+  #section-home .well-come {
+    font-size: 2rem !important;
+  }
+  #section-home .text-white-75 {
+    font-size: 1.5rem !important;
+  }
+}
