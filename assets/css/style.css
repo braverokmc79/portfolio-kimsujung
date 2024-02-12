@@ -1328,19 +1328,19 @@ ul.sub-steps.step-details-update {
   }
 
   #about .contents_wrap .info_all {
-    right: 56px;
+    right: -13px;
   }
   #about .contents_wrap .info_all .info ul li p:nth-child(2) {
     letter-spacing: 1;
 
     font-size: 11px;
   }
-  #about .contents_wrap {
+  /* #about .contents_wrap {
     display: inline-block !important;
   }
   #about .contents_wrap .photo {
     margin: 0 auto !important;
-  }
+  } */
 }
 
 @font-face {
